@@ -1,11 +1,11 @@
 # BFRHelpScoutDocsClient
 
 ### Summary
-BFRHelpScoutDocsClient is a basic wrapper around the HelpScout Docs API.
+BFRHelpScoutDocsClient is a basic wrapper around the HelpScout Docs API. It requires AFNetworking as a dependency. 
 
 Use it to pull a list of articles from HelpScout Docs, before showing the selected article to a user.
 
-We'll be putting together a demo project for you to hook up to your HelpScout Docs shortly.
+We'll be putting together a demo project to help you hook up to your HelpScout Docs shortly.
 
 We use it in [Buffer for iOS](https://itunes.apple.com/us/app/buffer-for-twitter-pinterest/id490474324?mt=8) :-).
 
