@@ -139,7 +139,7 @@
 - (void)increaseViewCountForArticleWithID:(NSString *)articleID success:(void (^)(id responseObject))success failure:(void (^)(NSError *error))failure {
     NSString *path = [NSString stringWithFormat:@"articles/%@/views", articleID];
     
-    [self GET:path parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [self PUT:path parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         success(responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         failure(error);
