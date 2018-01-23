@@ -46,6 +46,15 @@ To get up and running quickly with BFRHelpScoutDocsClient, configure it using yo
 }];
 ```
 
+### Increase View Count
+```objc
+[[BFRHelpScoutDocsClient sharedClient] increaseViewCountForArticleWithID:@"ARTICLEID" success:^(id responseObject) {
+    // Handle Response
+} failure:^(NSError *error) {
+    // Handle Error
+}];
+```
+
 ### Going Forward
 We regularly maintain this code, and you can also rest assured that it's been battle tested against thousands of users in production 👍. That said, we get things wrong from time to time - so feel free to open an issue for anything you spot!
 
